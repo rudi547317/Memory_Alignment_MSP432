@@ -22,7 +22,7 @@ that minimizes memory usage by eliminating padding bytes between members. It wil
 
 __Padded__:
 Padding ensures data elements are correctly aligned to memory boundaries, enabling efficient memory access by the processor. 
-This alignment reduces overhead and allows faster calculations, resulting in decreased execution time for computational tasks. However, padding does INCRESE MEMORY USAGE!
+This alignment reduces overhead and allows faster calculations, resulting in decreased execution time for computational tasks. However, padding does INCREASE MEMORY USAGE!
 
 
 !<img width="710" alt="PaddedAndPackedStructs" src="https://github.com/rudi547317/Memory_Alignment_MSP432/assets/133919829/239ba8d1-5585-48ac-b400-2031a60d03dd">
