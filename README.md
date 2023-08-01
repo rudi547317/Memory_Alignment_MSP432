@@ -45,4 +45,22 @@ This alignment reduces overhead and allows faster calculations, resulting in dec
 
 <img width="547" alt="Timer32RegisterBits" src="https://github.com/rudi547317/Memory_Alignment_MSP432/assets/133919829/70bab3bb-3754-468f-981f-bfcf84832ce9">
 
+## Calculations 
+
+__Here are some calculations related to Timer32:__        ⏰
+
+Let's assume no prescaler is applied, and the timer counts from 0xFFFFFFFF down to zero:
+
+_Tick Duration:_
+The time duration of one tick is calculated as (1) / (Timer Clock Frequency) = 1 / (48,000,000) ≈ 20.8nS/Tick.
+
+_Timer Overflow:_           
+The time it takes for the timer to overflow is calculated as (Timer Load Value) / (Timer Clock Frequency).
+In this case, TimerOverflow = 0xFFFFFFFF / 48,000,000 ≈ 89 seconds.
+
+_Calculating Total Time:_
+Timer32 returns the number of ticks. To calculate the total time for the calculations, we use the formula:
+Calculation Time = (Tick Duration) * (# of Ticks).
+
+These calculations and the total time formula can help you understand and utilize Timer32 effectively for your timing requirements.
 
