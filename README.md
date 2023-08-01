@@ -41,6 +41,8 @@ This alignment reduces overhead and allows faster calculations, resulting in dec
 <a id="pf-id"></a>
 ## Project Features
 
-* __Timer32__
+### Timer32
+
+<img width="547" alt="Timer32RegisterBits" src="https://github.com/rudi547317/Memory_Alignment_MSP432/assets/133919829/70bab3bb-3754-468f-981f-bfcf84832ce9">
 
 
