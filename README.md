@@ -37,8 +37,6 @@ This alignment reduces overhead and allows faster calculations, resulting in dec
 
 <br>
 <br>
-<br> 
-<br> 
 
 <a id="pf-id"></a>
 ## Project Features
