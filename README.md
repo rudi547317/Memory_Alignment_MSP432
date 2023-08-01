@@ -55,12 +55,12 @@ Let's assume no prescaler is applied, and the timer counts from 0xFFFFFFFF down 
   *__MCLK=48MHz__
 
 
-_Tick Duration:_
+_Tick Duration:_<br>
 The time duration of one tick is calculated as:<br>
 __Tick Duration = (1)/(Timer Clock Frequency)__ <br>
 __Tick Duration = 1/(48,000,000) ≈ 20.8nS/Tick__
 
-_Timer Overflow:_ <br>           
+_Timer Overflow:_           
 The time it takes for the timer to overflow is calculated as: <br> __TimerOverflow = (Timer Load Value) / (Timer Clock Frequency)__ <br>
 __TimerOverflow = 0xFFFFFFFF /48,000,000 ≈ 89 seconds__
 
