@@ -35,6 +35,11 @@ This alignment reduces overhead and allows faster calculations, resulting in dec
 |TI v20.2.7.LTS            |Bare-metal programming     | 11.1.0.00011                            |
 
 
+<br>
+<br>
+<br> 
+<br> 
 
+## Project Features
 
 
