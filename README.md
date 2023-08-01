@@ -60,11 +60,11 @@ The time duration of one tick is calculated as:<br>
 __Tick Duration = (1)/(Timer Clock Frequency)__ <br>
 __Tick Duration = 1/(48,000,000) ≈ 20.8nS/Tick__
 
-_Timer Overflow:_           
+_Timer Overflow:_ <br>           
 The time it takes for the timer to overflow is calculated as: <br> __TimerOverflow = (Timer Load Value) / (Timer Clock Frequency)__ <br>
 __TimerOverflow = 0xFFFFFFFF /48,000,000 ≈ 89 seconds__
 
-_Calculating Total Time:_
+_Calculating Total Time:_<br>
 Timer32 returns the number of ticks. To calculate the total time for the calculations, we use the formula:<br>
 __Calculation Time = (Tick Duration) * (# of Ticks)__
 
