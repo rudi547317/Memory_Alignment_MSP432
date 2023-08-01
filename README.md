@@ -1,7 +1,7 @@
 # Memory_Alignment_MSP432
 Code for the MSP432P401R to demonstrate the effects of memory alignment, based on Alex Fosdick's 
 "_Embedded Software and Hardware Architecture_" out of _University of Colorado Boulder_. Code was modified 
-to include Timer32 to observe latency, sizeof() function used to demeonstrate memory use. 
+to include Timer32 to observe latency, sizeof() function used to analyze memory use. 
 
 ## Brief Summary 
 
