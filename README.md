@@ -51,13 +51,18 @@ __Here are some calculations related to Timer32:__        ⏰
 
 Let's assume no prescaler is applied, and the timer counts from 0xFFFFFFFF down to zero:
 
+__Timer Clock Frequency = MCLK__ <br>
+__MCLK=48MHz__
+
+
 _Tick Duration:_
 The time duration of one tick is calculated as:<br>
-__Tick Duration = (1)/(Timer Clock Frequency) = 1/(48,000,000) ≈ 20.8nS/Tick__
+__Tick Duration = (1)/(Timer Clock Frequency)__ <br>
+__Tick Duration = 1/(48,000,000) ≈ 20.8nS/Tick__
 
 _Timer Overflow:_           
 The time it takes for the timer to overflow is calculated as: <br> __TimerOverflow = (Timer Load Value) / (Timer Clock Frequency)__ <br>
-__TimerOverflow = 0xFFFFFFFF / 48,000,000 ≈ 89 seconds__
+__TimerOverflow = 0xFFFFFFFF /48,000,000 ≈ 89 seconds__
 
 _Calculating Total Time:_
 Timer32 returns the number of ticks. To calculate the total time for the calculations, we use the formula:<br>
