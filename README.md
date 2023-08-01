@@ -46,6 +46,7 @@ This alignment reduces overhead and allows faster calculations, resulting in dec
 <img width="547" alt="Timer32RegisterBits" src="https://github.com/rudi547317/Memory_Alignment_MSP432/assets/133919829/70bab3bb-3754-468f-981f-bfcf84832ce9">
 
 <br>
+
 ### Calculations 
 
 __Here are some calculations related to Timer32:__        ⏰
