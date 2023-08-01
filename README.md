@@ -51,8 +51,8 @@ __Here are some calculations related to Timer32:__        ⏰
 
 Let's assume no prescaler is applied, and the timer counts from 0xFFFFFFFF down to zero:
 
-__Timer Clock Frequency = MCLK__ <br>
-__MCLK=48MHz__
+* __Timer Clock Frequency = MCLK__ <br>
+  *__MCLK=48MHz__
 
 
 _Tick Duration:_
